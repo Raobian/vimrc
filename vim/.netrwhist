@@ -1,0 +1,8 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_1='/root/data/hailiang_log/syslog1'
+let g:netrw_dirhist_2='/root/data/hailiang_log/log2'
+let g:netrw_dirhist_3='/root/data/hailiang_log/log2/vstor'
+let g:netrw_dirhist_4='/root/data/hailiang_log'
+let g:netrw_dirhist_5='/root/test/webpy/templates'
+let g:netrw_dirhist_6='/root/test/md5/src'
