@@ -872,3 +872,7 @@ filetype plugin indent on
 "tpl
 autocmd BufNewFile *.py 0 r ~/.vim/mytemplate/python.tpl
 autocmd BufNewFile *.erl 0 r ~/.vim/mytemplate/erlang.tpl
+
+nnoremap <F4> :set invpaste paste?<CR>
+imap <F4> <C-O>:set invpaste paste?<CR>
+set pastetoggle=<F4>
