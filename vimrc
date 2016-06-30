@@ -876,3 +876,5 @@ autocmd BufNewFile *.erl 0 r ~/.vim/mytemplate/erlang.tpl
 nnoremap <F4> :set invpaste paste?<CR>
 imap <F4> <C-O>:set invpaste paste?<CR>
 set pastetoggle=<F4>
+# 关闭自动补全 scratch
+set completeopt=menu
